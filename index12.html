@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Facebook Login</title>
+
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(242, 242, 242);
+        }
+
+        .container {
+            width: 900px;
+            height: 390px;
+            margin: 100px auto;
+            background-color: rgb(240, 242, 245);
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+
+        .left {
+            width: 400px;
+        }
+
+        .left h1 {
+            color: rgb(24, 119, 242);
+            font-size: 45px;
+            font-family: Georgia, serif;
+            font-weight: bold;
+        }
+
+        .left p {
+            font-size: 20px;
+            margin-top: 15px;
+        }
+
+        .login-box {
+            width: 300px;
+            padding: 15px;
+            background-color: rgb(255, 255, 255);
+            box-shadow: 0 2px 8px rgb(187, 187, 187);
+            text-align: center;
+        }
+
+        input {
+            width: 270px;
+            padding: 12px;
+            margin-bottom: 10px;
+            border: 1px solid rgb(221, 221, 221);
+        }
+
+        .login {
+            width: 296px;
+            padding: 10px;
+            background-color: rgb(24, 119, 242);
+            color: white;
+            border: none;
+            font-weight: bold;
+        }
+
+        .forgot {
+            display: inline-block;
+            margin: 12px;
+            color: rgb(24, 119, 242);
+            text-decoration: none;
+            font-size: 12px;
+        }
+
+        hr {
+            border: none;
+            border-top: 1px solid rgb(221, 221, 221);
+        }
+
+        .create {
+            margin-top: 15px;
+            padding: 10px 20px;
+            background-color: rgb(66, 183, 42);
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="left">
+            <h1>facebook</h1>
+
+            <p>
+                Connect with friends and the world around you on Facebook.
+            </p>
+        </div>
+
+        <div class="login-box">
+
+            <input type="text" placeholder="Email or phone number">
+
+            <input type="password" placeholder="Password">
+
+            <button class="login">Login</button>
+
+            <a href="#" class="forgot">Forgot password?</a>
+
+            <hr>
+
+            <button class="create">Create new account</button>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
